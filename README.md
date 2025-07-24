@@ -1,4 +1,4 @@
-# 🛡 Identity and Access Management (IAM) Lab – BlackTECH Academy
+#  Identity and Access Management (IAM) Lab – BlackTECH Academy
 
 This repository documents hands-on IAM tasks completed as part of the BlackTECH Cybersecurity Academy.  
 Tasks include Microsoft Entra PIM, MFA enforcement, SAML integration, and IAM auditing.
@@ -15,7 +15,7 @@ To strengthen identity and access controls through:
 
 ---
 
-## 📋 Tasks
+##  Tasks
 
 - [x] Task 1: Enable Privileged Identity Management (PIM)
 - [ ] Task 2: Configure PIM Role Activation & Approval Flow
@@ -53,4 +53,4 @@ This minimizes standing admin privileges and reduces risk of privilege abuse.
 
 ---
 
-Stay tuned as I complete and document the rest of the tasks! 🚀
+Stay tuned as I complete and document the rest of the tasks! 
