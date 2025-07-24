@@ -101,6 +101,53 @@ Strengthen access control by requiring **approval**, **MFA**, and **justificatio
 
 
 ---
+##  Task 3: Integrate Salesforce App with Entra ID via SAML
+
+###  Objective
+Enable Single Sign-On (SSO) for **Salesforce** using the **SAML 2.0** protocol with Microsoft Entra ID as the Identity Provider (IdP).
+
+---
+
+###  Steps Taken
+
+1. Navigated to:
+   `Microsoft Entra Admin Center > Enterprise Applications`
+
+2. Clicked **“+ New Application”**, then searched and selected:
+   -  **Salesforce**
+
+3. After app creation, selected:
+   - **Single sign-on > SAML**
+
+4. On the SAML configuration page:
+   - Reviewed & confirmed the following:
+     - **Identifier (Entity ID):**  
+       `https://saml.salesforce.com`
+     - **Reply URL (ACS):**  
+       `https://<your-domain>.my.salesforce.com`
+
+5. Downloaded the **Federation Metadata XML**
+6. Assigned a test user under **Users and Groups**
+7. (Optional) Sent metadata to Salesforce admin for import on their end
+
+---
+
+### Key Concepts
+
+- **SAML 2.0** provides federated login between Entra ID and Salesforce.
+- Microsoft Entra ID acts as the **Identity Provider (IdP)**.
+- Salesforce is the **Service Provider (SP)**.
+- **SSO** improves both security and user experience.
+
+---
+
+### Screenshot
+![Salesforce SAML Setup]
+<img width="1366" height="711" alt="2025-07-24 (23)" src="https://github.com/user-attachments/assets/2a89951c-0ec1-4dad-8fc8-2a43412f15ee" />
+
+---
+
+ Salesforce is now integrated with Microsoft Entra for SAML SSO. Further testing and claim customization can be done as needed.
 
 
 
